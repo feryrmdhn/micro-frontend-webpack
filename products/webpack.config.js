@@ -11,7 +11,12 @@ module.exports = {
             name: 'products',
             filename: 'remoteEntry.js', //look at 8080 > inspect > network > JS
             exposes: {
-                './ProductsIndex': './src/index'
+                './ProductsIndex': './src/bootstrap'
+            },
+            shared: {
+                faker: {
+                    singleton: true // only run 1 version of faker in network > JS
+                }
             }
         }),
         new HtmlWebpackPlugin({
