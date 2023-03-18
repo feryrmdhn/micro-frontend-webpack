@@ -11,7 +11,7 @@ module.exports = {
             name: 'cart',
             filename: 'remoteEntry.js', //look at 8080 > inspect > network > JS
             exposes: {
-                './CartShow': './src/index'
+                './CartShow': './src/bootstrap'
             },
             shared: {
                 faker: {
