@@ -1,4 +1,4 @@
-import faker from 'faker'; // 5.0.0 this different version on another file
+import faker from 'faker'; // 5.0.0 this different version with another file
 
 const mount = (el) => {
 
