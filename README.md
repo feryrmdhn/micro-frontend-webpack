@@ -1,5 +1,5 @@
 # Basic Micro-frontend
-Build micro frontend from scratch
+Build micro frontend concept from scratch using webpack
 
 <h4>There is several requirement</h4>
 <ol>
